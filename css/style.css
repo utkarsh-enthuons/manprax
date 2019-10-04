@@ -1,0 +1,349 @@
+body{
+    font: 14px/normal 'Source Sans Pro', sans-serif;
+    background: #f6f7f8;
+    color: #000;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: auto;
+}
+
+.other_changes .profile-box{
+    position: relative;
+}
+
+.other_changes .profile-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) , rgba(0, 0, 0, 1));
+    padding: 0 20px;
+}
+
+.other_changes .profile-details h4.name, .other_changes .profile-details p.about{
+    color: #fff;
+}
+
+.other_changes .profile-details h4.name{
+    font-size: 24px;
+    margin: 20px auto 5px;
+    line-height: 1;
+}
+
+.other_changes .profile-details p.about{
+    margin: auto;
+}
+
+.other_changes .profile img{
+     max-width: 100%;
+}
+
+.other_changes .profile-about p{
+    padding: 20px 10px;
+    color: #30302f;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.other_changes .heading{
+    margin-bottom: 20px;
+}
+
+.other_changes .heading h4{
+    font-weight: 100;
+    margin: auto;
+    text-decoration: underline;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.other_changes .clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.other_changes .heading a.see_all, .other_changes .heading-2 a.see_all{
+    text-transform: uppercase;
+    color: #5cc09f;
+    display: inline-block;
+    float: right;
+    padding: 0 15px;
+    font-weight: 900;
+}
+.other_changes .list {
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.other_changes .learning_list .list span.icon, .other_changes .profile .member span.fa{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    background: #ef5c4e;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.other_changes .learning_list .list span.icon:after{
+    content: "";
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    border-radius: 50%;
+    background: #5cc09f;
+}
+
+.other_changes .learning_list .list h4{
+    margin-bottom: 7px;
+    margin-top: 0;
+    color: #30302f;
+}
+
+.other_changes .learning_list .list p{
+    margin: auto;
+    color: #30302f;
+    font-weight: 200;
+}
+
+.other_changes .learning_list .list a.time{
+    display: inline-block;
+    float: right;
+    font-weight: 600;
+    color: #5cc09f;
+}
+
+.other_changes .heading.topic{
+    margin-top: 20px;
+}
+
+.other_changes .topic-cards{
+    padding: 8px 45px 8px 8px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.other_changes .topic-cards h5{
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 100;
+    color: #30302f;
+}
+
+.other_changes .topic-cards span.number{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: #5cc09f;
+    border-radius: 50%;
+    top: -10px;
+    right: 10px;
+}
+
+.other_changes .topic-cards .author, .other_changes .topic-cards .date, .other_changes .topic-cards .comment, .other_changes .topic-cards .share{
+    display: block;
+    font-size: 10px;
+    line-height: 1.6;
+    margin-top: 5px;
+    color: #a3a3a3;
+}
+
+.other_changes .topic-cards .date, .other_changes .topic-cards .comment, .other_changes .topic-cards .share{
+    display: inline-block;
+}
+
+.other_changes .topic-cards .author span.fa, .other_changes .profile-box .author span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 12px;
+    font-size: 7px;
+    background: #5cc09f;
+    text-align: center;
+}
+
+.other_changes .topic-cards .other_topic_details span.fa{
+    color: #a2a2a2;
+}
+
+.other_changes .topic-cards .date{
+    margin-right: 80px
+}
+
+.other_changes .topic-cards .comment{
+    margin-right: 30px;
+}
+
+.other_changes .learning_list.chats .list span.icon, .other_changes .profile .member span.fa{
+    background: #5cc09f;
+}
+
+.other_changes .chats{
+    margin-bottom: 20px;
+}
+
+/*notification started.*/
+.other_changes .not-list span.fa{
+    color: #ef5c4e;
+    margin-right: 10px;
+}
+
+.other_changes .not-list, .other_changes .not-list b{
+    font-size: 13px;
+    color: #00b3c8;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.other_changes .not-list{
+    color: #231f20;
+}
+/*notification ended.*/
+
+/*my courses started.*/
+.other_changes .courses{
+    margin-bottom: 20px;
+}
+
+.other_changes .courses-details{
+    padding: 20px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.other_changes .courses-details img{
+    float: left;
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.other_changes .courses-details h4{
+    font-size: 24px;
+    color: #30302f;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.other_changes .courses-details .level{
+    color: #02b2c7;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.other_changes .courses-details .percent{
+    color: #30302f;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.other_changes .courses-details .percent span{
+    width: 100px;
+    height: 8px;
+    margin-left: 5px;
+    background: #02b1c6;
+    display: inline-block
+}
+/*my courses ended.*/
+
+/*topics started.*/
+.other_changes .profile-box .author{
+    color: #fff;
+    font-size: 12px;
+}
+
+.other_changes .profile .member span.fa{
+    display: block;
+    margin: auto;
+    float: none;
+}
+
+.other_changes .no-gutter{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.other_changes .member h6.member-name, .other_changes .member a.all_member{
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #30302f;
+}
+
+.other_changes .member a.all_member{
+    color: #5cc09f;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.other_changes .member a.create_new{
+    width: 210px;
+    line-height: 56px;
+    color: #fff;
+    background: #5cc09f;
+    border-radius: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*topics ended.*/
+/*new topic started.*/
+.other_changes .new_topic{
+    
+}
+
+.other_changes .new_topic h6{
+    font-size: 10px;
+    color: #a3a3a3;
+    margin-bottom: 5px;
+}
+
+.other_changes .new_topic textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    resize: none;
+    background: transparent;
+    line-height: 30px;
+}
+
+.other_changes .new_topic textarea:focus{
+    border-color: #5cc09f;
+    outline: none;
+}
+
+.other_changes .new_topic span{
+    display: block;
+    text-align: right;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.other_changes .new_topic button{
+    border: none;
+    background: #5cc09f;
+    padding: 8px;
+    color: #fff;
+}
+/*new topic ended.*/
