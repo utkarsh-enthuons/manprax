@@ -47,7 +47,7 @@
         font-weight: 400;
     }
 
-    .card .rating span{
+    .card .rating span.fa-star, .card .rating span.fa-star-half-o{
         color: #ffad12;
     }
 
@@ -55,6 +55,15 @@
         color: #d1d2d3;
     }
 
+    .float-right{
+        float: right;
+    }
+
+    .rating:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
     </style>
 </head>
 
@@ -65,7 +74,7 @@
         <h6>Integrating for an Excellent Education</h6>
         <div class="level_dis"><span class="level">Level - 1</span> | <span class="">35 Enrollments</span></div>
         <div class="rating"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span>
-        <span class="fa fa-star-half-o"></span> <span class="fa fa-star blank"></span></div>
+        <span class="fa fa-star-half-o"></span> <span class="fa fa-star blank"></span> <span class="float-right progress-bar2">63%</span></div>
     </div>
 </div>
 </body>
