@@ -347,3 +347,195 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;
 }
 /*new topic ended.*/
+
+
+
+/* chat css started. */
+.other_changes button.reply {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    line-height: 37px;
+    background: #20b3c9;
+}
+
+.other_changes .grp_message_box {
+    padding: 10px 0 15px;
+}
+
+.other_changes button.reply img {
+    display: block;
+    margin: auto;
+}
+
+.other_changes .grp_message_box .message_content{
+    display: inline-block;
+    max-width: 80%;
+}
+
+.other_changes .grp_message_box .grp_message img.main_img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.other_changes .grp_message_box .grp_message span, .other_changes .grp_message_box .grp_message a{
+    display: inline-block;
+}
+
+.other_changes .grp_message_box .grp_message span.like,
+.other_changes .grp_message_box .grp_message span.grp_message_content{
+    display: block;
+}
+
+.other_changes .grp_message_box .grp_message .grp_time, .other_changes span.like a.grp_like,
+.other_changes span.like .grp_reply, .other_changes .reply_of_message .reply_message_content p.name{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #a3a3a3;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+}
+
+.other_changes span.like a.grp_like{
+    color: #f05c4e;
+    margin-right: 13px;
+}
+
+.other_changes .grp_message_box .grp_message .grp_message_content{
+    font-size: 20px;
+    line-height: 24px;
+    color: #30302f;
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+.other_changes .message .content{
+    padding: 12px 15px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    color: #30302f;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    background: #fff;
+    max-width: 70%;
+}
+
+.other_changes .message .user-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.other_changes .msg_received p.time {
+    margin-left: 62px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #a3a3a3;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+}
+.other_changes .msg_received.send{
+    text-align: right;
+}
+
+.other_changes button.reply {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    line-height: 37px;
+    background: #20b3c9;
+}
+
+.other_changes .reply_box textarea {
+    border-radius: 30px;
+    resize: none;
+    width: calc(100% - 43px);
+    line-height: 1;
+    padding: 3px 15px 0;
+    margin-right: 3px;
+    font-size: 16px;
+    color: #a3a3a3;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+}
+
+.other_changes button.reply img {
+    display: block;
+    margin: auto;
+}
+
+.other_changes textarea:focus{
+    outline: none;
+}
+
+.other_changes .back_white{
+    background: #fff;
+}
+
+.other_changes .reply_box {
+    margin-top: 10px;
+}
+
+
+/* reply-message css */
+
+.other_changes .reply_of_message {
+    border-left: 2px solid #00b3c7;
+    background: #f7f8f8;
+    padding: 5px 0 14px 7px;
+}
+
+.other_changes .reply_of_message img.sub_img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 10px;
+
+}
+
+.other_changes .reply_message_content {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.other_changes .reply_of_message .reply_message_content p.name{
+    line-height: 1;
+}
+
+.other_changes .grp_message_box .grp_message h6.grp_message_content{
+    padding-bottom: 0;
+}
+
+.other_changes .grp_message_box .grp_message span.grp_message_content.replies {
+    font-weight: 300;
+    padding-top: 3px;
+}
+
+.other_changes .reply_of_message .reply{
+    margin-top: 5px;
+}
+
+.reply.other_reply {
+    margin-top: 10px;
+}
+
+.other_changes .grp_message_box .message_content.replying {
+    background: #f1f1f1;
+    padding: 0 15px 10px;
+}
+/* chat css ended. */
