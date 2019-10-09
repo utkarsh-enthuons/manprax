@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> index </title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    .other_changes .message .content{
+        padding: 12px 15px;
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        color: #30302f;
+        font-family: "Source Sans Pro";
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1;
+        display: inline-block;
+        background: #fff;
+        max-width: 70   %;
+    }
+
+    .other_changes .message .user-img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+
+    .other_changes .msg_received p.time {
+        margin-left: 62px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #a3a3a3;
+        font-family: "Source Sans Pro";
+        font-weight: 300;
+}
+    .other_changes .msg_received.send{
+        text-align: right;
+    }
+
+    .other_changes button.reply {
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        border: none;
+        text-align: center;
+        line-height: 37px;
+        background: #20b3c9;
+    }
+
+    .other_changes .reply textarea {
+        border-radius: 30px;
+        resize: none;
+        width: calc(100% - 40px);
+        line-height: 37;
+        padding: 3px 15px;
+        margin-right: 3px;
+        font-size: 16px;
+        color: #a3a3a3;
+        font-family: "Source Sans Pro";
+        font-weight: 300;
+    }
+
+    .other_changes button.reply img {
+        display: block;
+        margin: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container other_changes">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
+                <div class="msg_received receive">
+                    <div class="message">
+                        <img class="user-img" src="images/Path.svg"> <span class="content">
+                        Lorem ipsum dolor sit amet, consectetuer Lorem ipsum dolor sit amet.
+                        </span>
+                    </div>
+                    <p class="time">Robbie • Tue, 4:16pm</p>
+                </div>
+                <div class="msg_received receive">
+                    <div class="message">
+                        <img class="user-img" src="images/Path.svg"> <span class="content">
+                        Sounds Awesome!
+                        </span>
+                    </div>
+                    <p class="time">Robbie • Tue, 4:16pm</p>
+                </div>
+                <div class="msg_received send">
+                    <div class="message">
+                        <span class="content">
+                        Go for it.
+                        </span>
+                    </div>
+                    <p class="time">Robbie • Tue, 4:16pm</p>
+                </div>
+                <div class="reply">
+                    <textarea placeholder="Add public reply"></textarea>
+                    <button class="reply"><img src="images/reply.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
