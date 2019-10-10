@@ -464,13 +464,14 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 30px;
     resize: none;
     width: calc(100% - 43px);
-    line-height: 1;
+    line-height: 30px;
     padding: 3px 15px 0;
     margin-right: 3px;
     font-size: 16px;
     color: #a3a3a3;
     font-family: "Source Sans Pro";
     font-weight: 300;
+    height: 37px;
 }
 
 .other_changes button.reply img {
@@ -488,8 +489,65 @@ h1,h2,h3,h4,h5,h6,p{
 
 .other_changes .reply_box {
     margin-top: 10px;
+    position: relative;
 }
 
+.attachment{
+    width: 37px;
+    height: 37px;
+    border-radius: 0 30px 30px 0;
+    position: absolute;
+    right: 43px;
+    line-height: 37px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.other_changes .attach-box{
+    padding: 15px 15px;
+    position: absolute;
+    background: #fff;
+    right: 43px;
+    top: -75px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.other_changes .attach-box:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.other_changes .attach-input-box{
+    float: left;
+    position: relative;
+    padding: 0 10px;
+}
+
+.other_changes .attach-input-box:first-child{
+    padding-left: 0;
+}
+
+.other_changes .attach-input-box:last-child{
+    padding-right: 0;
+}
+
+.other_changes .attach-input-box input,  .other_changes .attach-input-box input:focus{
+    width: 40px;
+    height: 40px;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.other_changes .attach-input-box span{
+    display: inline-block;
+}
 
 /* reply-message css */
 
