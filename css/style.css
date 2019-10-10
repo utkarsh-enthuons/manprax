@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 19px;
 }
 
-.other_changes .heading{
+.other_changes .heading, .other_changes .heading-2{
     margin-bottom: 20px;
 }
 
@@ -55,6 +55,10 @@ h1,h2,h3,h4,h5,h6,p{
     margin: auto;
     text-decoration: underline;
     font-size: 20px;
+    display: inline-block;
+}
+
+.other_changes .heading-2 h4{
     display: inline-block;
 }
 
@@ -548,6 +552,52 @@ h1,h2,h3,h4,h5,h6,p{
 .other_changes .attach-input-box span{
     display: inline-block;
 }
+
+.other_changes .recent_media{
+    padding: 0 0 0 15px;
+    background: #fff;
+}
+
+.other_changes .recent_media .media-box{
+    padding: 15px 0;
+}
+
+.other_changes .profile .media-box img.file{
+    margin-right: 8px;
+    float: left;
+}
+
+.other_changes .profile .media-box a.download{
+    padding: 0 10px;
+    float: right;
+    line-height: 34px;
+    display: inline-block;
+}
+
+.other_changes .profile .media-box h5.media_title, .other_changes .profile .media-box h6.media_dis{
+    float: left;
+    max-width: calc(100% - 60px);
+}
+
+.other_changes .profile .media-box h5.media_title, .other_changes .profile .media-box h6.media_dis{
+    font-size: 16px;
+    line-height: 1;
+    color: #30302f;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 3px;
+}
+
+.other_changes .profile .media-box h6.media_dis {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 300;
+}
+
+
 
 /* reply-message css */
 
