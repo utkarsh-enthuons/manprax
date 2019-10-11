@@ -1422,3 +1422,17 @@ body {
   .tfi .group-detail-nav .panel .row {
     margin-top: 0;
   }
+
+
+
+
+  .list span.group_icon{
+    padding: 0;
+}
+
+.list span.group_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
