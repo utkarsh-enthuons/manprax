@@ -1329,6 +1329,7 @@ ol.breadcrumb {
   border-bottom: 1px solid #bdb2b2;
   padding-top: 10px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .other_changes .card {
