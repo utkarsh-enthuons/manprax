@@ -514,6 +514,7 @@ h1,h2,h3,h4,h5,h6,p{
     right: 43px;
     top: -75px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    width: 190px;
 }
 
 .other_changes .attach-box:after{
@@ -647,3 +648,35 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0 15px 10px;
 }
 /* chat css ended. */
+
+
+/* media queries started. */
+@media screen and (max-width: 1024px){
+    .other_changes .grp_message_box .grp_message img.main_img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .other_changes .grp_message_box .grp_message img.main_img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .other_changes .grp_message_box .grp_message .grp_message_content{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .other_changes .grp_message_box .message_content{
+        max-width: 75%;
+    }
+
+    .other_changes .grp_message_box .grp_message .grp_message_content{
+        font-size: 14px;
+    }
+}
+/* media queries ended */
